@@ -1,0 +1,419 @@
+html,body{
+	margin:0;
+	height:100%;
+}
+
+p, h1{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ******************************************************** */
+
+/*NAVIGATION*/
+.navbar {
+	background-color: #242424;
+	border-bottom: 1px solid #b9b9b9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a {
+	color: #cccccc !important;
+}
+
+.navbar a:hover {
+	color: #ffffff !important;
+	background-color: #646464 !important;
+}
+
+.navbar-header{
+	color: black
+		font-size: 1.5em;
+}
+
+.nav-bar-brand{
+	color:white;
+}
+
+.navbar-brand{
+	font-family: Brush Script MT !important;
+	font-size:2.3em;
+}
+
+.readmorebtn, .readmorebtn:hover{
+	color: white;
+	background-color: #4FE86E;
+}
+
+.navbar-default .nav li.active a{
+	color:#1d1d1d !important;
+}
+
+@media(max-width:768px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+}
+
+/* ******************************************************** */
+
+/* HEADER */
+.header{
+	padding: 140px 0 60px 0;
+	background: url(../img/pexels-photo-229493.jpg) no-repeat center center; /* background photo */
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5); /* tint for screen */
+
+	/* full size wallpaper to screen*/
+	min-height:100%;
+	min-width:100%;
+	height:auto;
+	width:auto;
+	top:-100%;
+	bottom:-100%;
+	left:-100%;
+	right:-100%;
+	margin:auto;
+	background-size: cover;
+}
+
+.header h1{
+	color: white;
+	font-family: 'Pacifico', cursive;
+	font-size: 7.5em;
+}
+
+.header p{
+	color:white;
+	font-size: 1.3em;
+}
+
+.header .btn{
+	padding: 5px 50px 5px 50px;
+	border-radius: 0;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:768px){ /* less than 768 pixels */
+	.header{
+		text-align:center;
+		padding-top: 20%;
+	}
+
+	.header h1{
+		font-size:5em;
+	}
+
+	.header p {
+		font-size: 1em;
+	}
+
+	.header .btn {
+		padding: 5px 12px 5px 12px;
+	}
+}
+
+@media(max-width:320px){
+	.header h1{
+		padding-bottom: 100px;
+	}
+}
+
+/* ******************************************************** */
+
+/* ABOUT */
+.about{
+	padding: 100px 0 100px 0;
+	text-align: center;
+}
+
+.about h1{
+	font-size: 1.8em;
+	color: #337ab7;
+	padding: 0 0 25px;
+}
+
+.about p {
+	padding-bottom: 25px;
+}
+
+.profile{
+	width: 160px;
+	height: 160px
+}
+
+/* ******************************************************** */
+
+/* INSIDE */
+.inside{
+	background-color: #337ab7;
+	text-align: center;
+	color:white;
+	padding:90px 0 90px;
+}
+
+.inside h1{
+	font-size: 2em;
+	padding-bottom:25px;
+}
+
+.inside img{
+	padding:15px 0 35px;
+}
+
+.icedteas{
+	width: 850px;
+	height: 400px;
+}
+
+.fruitIcons{
+	font-size: 50px !important;
+}
+
+.benefits:hover{
+	color:black;
+	border-color: black;
+}
+
+@media(max-width:768px){
+	.icedteas{
+		width:300px;
+		height:400px;
+	}
+	.logo{
+		padding-bottom: 0px;
+		margin-bottom: 0px;
+	}
+	.benefits{
+		margin-bottom: 30px;
+	}
+}
+
+/* ******************************************************** */
+
+/* EVENTS */
+.events{
+	padding: 90px 0 90px;
+	text-align: center;
+}
+
+.events h1{
+	font-size: 1.8em;
+	padding-bottom: 25px;
+	color:#337ab7;
+}
+
+.followUs {
+	padding-bottom: 25px;
+}
+
+.timeDate{
+	text-align: left;
+	padding: 0 0 125px 15px;
+}
+
+/* ******************************************************** */
+
+/* PRODUCTS */
+.products{
+	background-color: #2267a3;
+	padding: 90px 0 90px;
+	text-align: center;
+	color: white;
+}
+
+.products img{
+	padding: 20px 0 20px;
+}
+
+.products img:hover{
+	opacity: 0.7;
+}
+
+.productImg{
+	width:220px;
+	height:210px;
+	margin-top: 25px;
+}
+
+.products h1{
+	color:white;
+	font-size: 2em;
+}
+
+@media(max-width:768px){
+	.products img{
+		opacity: 1;
+	}
+}
+
+/* ******************************************************** */
+
+/* REVIEWS */
+.reviews{
+	padding: 90px 0 90px;
+	text-align: center;
+}
+
+.reviews h1{
+	font-size: 2em;
+	padding-bottom: 25px;
+	color:#337ab7;
+}
+
+.reviews p{
+	padding: 0 0 35px;
+}
+
+/* ******************************************************** */
+
+/* CONTACT */
+.contact{
+	padding: 100px 0 100px;
+	background-color: #165994;
+	color:white;
+}
+
+.contact h1{
+	font-size: 2em;
+	padding-bottom: 25px;
+	color:white;
+}
+
+.contact .fa{
+	color: white;
+	padding: 20px 10px 40px;
+}
+
+.contact li{
+	padding-top: 10px;
+}
+
+.contact .fa:hover{
+	color:#1087ee;
+}
+
+/* ******************************************************** */
+
+/* FOOTER */
+.connectAndAbout{
+	padding-top: 95px;
+}
+
+.footer h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.5em;
+	color:black;
+	text-align: left;
+}
+
+.footer p {
+	font-size: 1.3em;
+	color:#f2f2f2;
+	color:black;
+	text-align: left;
+}
+
+.footer a{
+	color:#f2f2f2;
+}
+
+@media(max-width:768px){
+	.connectAndAbout{
+		padding-top:0px;
+	}
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+
+/* ICED TEAS*/
+.modalHeading{
+	font-family: 'Dosis', sans-serif;
+	font-size: 2em;
+}
+
+.modalDesc{
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+}
+
+.icedTeasPage{
+	padding: 90px 0 0 0;
+}
+
+.icedTeasPage ul{
+	text-align: left;
+}
+
+.icedTeaBtn{
+	color:black;
+	border-color: black;
+}
+
+.icedTeaBtn:hover{
+	color:white;
+	background-color: black;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+
+/* DRY TEAS*/
+.dryTeasPage{
+	padding: 100px 0 0 0;
+	text-align: center;
+}
+
+.modalDry{
+	margin-top:25px;
+}
+
+.dryTeasPage ul, .dryTeasPage ol{
+	text-align: left;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+
+/** SNACKS */
+.snacksPage{
+	padding: 100px 0 0 0;
+}
+
+.snacksPage ul{
+	text-align: left;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+
+/* WHEAT MEALS*/
+.wheatMealPage{
+	padding: 100px 0 0 0;
+}
+
+.wheatMealDesc{
+	padding-bottom: 25px;
+}
+
+.wheatMealPage ul {
+	text-align: left;
+}
+
+/* ******************************************************** */
+/* ******************************************************** */
+
+/* BENEFITS */
+.benefitsPage{
+	padding: 150px 0 0 0;
+}
+
+.benefitsDesc{
+	padding-left: 50px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.5em;
+}
+
+.benefitsPage ul{
+	text-align: left;
+}
+
