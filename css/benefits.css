@@ -23,11 +23,6 @@ h1{
 	color: #75E4B3 !important;
 }
 
-.readmorebtn, .readmorebtn:hover{
-	color: white;
-	background-color: #4FE86E;
-}
-
 .navbar-default .nav li.active a{
 	color:#1d1d1d !important;
 }
@@ -38,15 +33,24 @@ h1{
 	}
 }
 
-h4{
-	font-family: 'Khula', sans-serif;
+h4, h2{
+	font-family: 'Overpass', sans-serif;
 }
 
+.benefitsDesc{
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+a{
+	color: #75E4B3;
+}
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
 	color: #75E4B3;
+	font-family: 'Khula', sans-serif;
 	cursor: default;
 }
 
@@ -54,5 +58,7 @@ h4{
 .nav-tabs > li > a:hover,
 .nav-tabs > li > a:focus {
 	color: black;
+	font-family: 'Khula', sans-serif;
 	cursor: default;
+
 }

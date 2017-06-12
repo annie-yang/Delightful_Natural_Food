@@ -277,6 +277,7 @@ p, h1{
 .nav-tabs > li.active > a:focus {
 	color: #75E4B3;
 	cursor: default;
+	font-family: 'Khula', sans-serif;
 }
 
 .nav-tabs > li > a,
@@ -284,6 +285,7 @@ p, h1{
 .nav-tabs > li > a:focus {
 	color: black;
 	cursor: default;
+	font-family: 'Khula', sans-serif;
 }
 
 .followUs {
