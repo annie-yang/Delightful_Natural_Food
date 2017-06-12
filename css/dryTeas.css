@@ -1,0 +1,56 @@
+.navbar-dry {
+	background-color: white;
+	font-family: 'Khula', sans-serif;
+}
+
+.navbar-dry a:hover {
+	color: #ffffff !important;
+	background-color: #75E4B3 !important;
+	font-family: 'Khula', sans-serif;
+}
+
+.navbar-brand{
+	font-family: Brush Script MT !important;
+	font-size:2.3em;
+	color: #75E4B3 !important;
+}
+
+.readmorebtn, .readmorebtn:hover{
+	color: white;
+	background-color: #4FE86E;
+}
+
+.navbar-default .nav li.active a{
+	color:#1d1d1d !important;
+}
+
+@media(max-width:768px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+}
+
+.option{
+	font-size: 1em;
+	font-family: 'Overpass', sans-serif;
+}
+
+h1{
+	font-family: 'Overpass', sans-serif;
+	font-size: 2em;
+	padding: 7% 0 0 0;
+}
+
+.modalHeading{
+	font-size: 2em;
+	font-family: 'Overpass', sans-serif;
+}
+
+h4{
+	font-family: 'Khula', sans-serif;
+}
+
+.modalDesc{
+	font-family: 'Khula', sans-serif;
+	font-size: 1.5em;
+}
