@@ -62,11 +62,32 @@
 	  </script>
 	  <script>(function(f,o,u,n,d,e,r,s){f[u]=f[u]||function(){f[u].q=arguments;};f[u].host=n;e=o.createElement(d);e.async=1;e.src=n+'/samestate.js';r=o.getElementsByTagName(d)[0];r.parentNode.insertBefore(e,r);})(window,document,'Samestate','https://samestate-recorder-production.herokuapp.com','script');</script>
 
+	  <!-- Start of Async Drift Code -->
+	  <script>
+		  !function() {
+			  var t;
+			  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+  t.factory = function(e) {
+				  return function() {
+					  var n;
+					  return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+				  };
+			  }, t.methods.forEach(function(e) {
+				  t[e] = t.factory(e);
+			  }), t.load = function(t) {
+				  var e, n, o, i;
+				  e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+					  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js",
+					  n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+			  });
+		  }();
+		  drift.SNIPPET_VERSION = '0.3.1';
+		  drift.load('p562f9xky867');
+	  </script>
+	  <!-- End of Async Drift Code -->
   </head>
-  <body data-spy="scroll" data-target="#myNavbar" data-offset="70">
-
-  </body>
-	 <body>
+	<body>
 
   <!-- NAVBAR -->
 	<div id="myNavbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -93,8 +114,7 @@
 					<li><a href="benefits.html">Benefits</a></li>
 					<li><a href="#events">Demo Dates</a></li>
 					<li><a href="#reviews">Reviews</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contacts</a></li>
+					<li><a href="#locations">Locations</a></li>
 				</ul>
 			</div>
 
@@ -222,12 +242,12 @@
 				 </div>
 
 				 <ul class="nav nav-tabs" role="tablist">
-					 <li role="presentation" class="disabled dates"><a href="#first" aria-controls="settings" role="tab" data-toggle="tab">Tues., June 13</a></li>
-					 <li role="presentation" class="disabled dates"><a href="#second" aria-controls="settings" role="tab" data-toggle="tab">Sat., June 17</a></li> <!-- class="disabled" -->
-					 <li role="presentation" class="disabled dates"><a href="#third" aria-controls="home" role="tab" data-toggle="tab">Tues., June 20</a></li>
-					 <li role="presentation" class="active dates"><a href="#fourth" aria-controls="home" role="tab" data-toggle="tab">Sat., June 24</a></li>
-					 <li role="presentation" class="dates"><a href="#fifth" aria-controls="home" role="tab" data-toggle="tab">Tues., June 27</a></li>
+					 <li role="presentation" class="disabled dates"><a href="#first" aria-controls="settings" role="tab" data-toggle="tab">Tues., June 27</a></li>
+					 <li role="presentation" class="active dates"><a href="#second" aria-controls="settings" role="tab" data-toggle="tab">Tues., July 11</a></li> <!-- class="disabled" -->
+					 <li role="presentation" class="dates"><a href="#third" aria-controls="home" role="tab" data-toggle="tab">Tues., July 18</a></li>
+					 <li role="presentation" class="dates"><a href="#fourth" aria-controls="home" role="tab" data-toggle="tab">Tues., July 25</a></li>
 <!--
+					 <li role="presentation" class="active dates"><a href="#fifth" aria-controls="home" role="tab" data-toggle="tab">Tues., June 27</a></li>
 					 <li role="presentation"><a href="#sixth" aria-controls="home" role="tab" data-toggle="tab">Sat., June 10</a></li>
 					 <li role="presentation"><a href="#seventh" aria-controls="home" role="tab" data-toggle="tab">Tues., June 13</a></li>
 					 <li role="presentation"><a href="#eighth" aria-controls="home" role="tab" data-toggle="tab">Sat., June 17</a></li>
@@ -242,51 +262,38 @@
 					 <div role="tabpanel" class="tab-pane" id="first">
 						 <p class="timeDate">
 							 <strike>
-							 Date: Tuesday, June 13, 2017 <br>
+							 Date: Tuesday, June 27, 2017 <br>
 							 Store: Berkeley Bowl West<br>
 							 Location: 920 Heinz Ave, Berkeley, CA 94710<br>
-							 Time: 1PM - 4PM<br><br>
-
-							 Date: Tuesday, June 13, 2017 <br>
-							 Store: Berkeley Bowl<br>
-							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
 							 Time: 1PM - 4PM
 							 </strike>
 						 </p>
 					 </div>
-					 <div role="tabpanel" class="tab-pane" id="second">
+					 <div role="tabpanel" class="tab-pane fade in active" id="second">
 						 <p class="timeDate">
-							 <strike>
-							 Date: Saturday, June 17, 2017 <br>
+							 Date: Tuesday, July 11, 2017 <br>
 							 Store: Berkeley Bowl<br>
 							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
 							 Time: 1PM - 4PM
-							 </strike>
 						 </p>
 					 </div>
 					 <div role="tabpanel" class="tab-pane" id="third">
 						 <p class="timeDate">
-							 <strike>
-							 Date: Tuesday, June 20, 2017 <br>
-							 Store: Berkeley Bowl West<br>
-							 Location: 920 Heinz Ave, Berkeley, CA 94710<br>
-							 Time: 1PM - 4PM<br><br>
-
-							 Date: Tuesday, June 20, 2017 <br>
+							 Date: Tuesday, July 18, 2017 <br>
 							 Store: Berkeley Bowl<br>
 							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
 							 Time: 1PM - 4PM
-							 </strike>
 						 </p>
 					 </div>
-					 <div role="tabpanel" class="tab-pane fade in active" id="fourth">
+					 <div role="tabpanel" class="tab-pane" id="fourth">
 						 <p class="timeDate">
-							 Date: Saturday, June 24, 2017 <br>
+							 Date: Tuesday, July 25, 2017 <br>
 							 Store: Berkeley Bowl<br>
 							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
 							 Time: 1PM - 4PM
 						 </p>
 					 </div>
+<!--
 					 <div role="tabpanel" class="tab-pane" id="fifth">
 						 <p class="timeDate">
 							 Date: Tuesday, June 27, 2017 <br>
@@ -295,14 +302,20 @@
 							 Time: 1PM - 4PM
 						 </p>
 					 </div>
+-->
 <!--
 					 <div role="tabpanel" class="tab-pane" id="sixth">
 						 <p class="timeDate">
 							 <strike>
-							 Date: Saturday, June 10, 2017 <br>
-							 Store: Berkeley Bowl<br>
-							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
-							 Time: 1PM - 4PM
+								Date: Tuesday, June 13, 2017 <br>
+								Store: Berkeley Bowl West<br>
+								Location: 920 Heinz Ave, Berkeley, CA 94710<br>
+								Time: 1PM - 4PM<br><br>
+
+								Date: Tuesday, June 13, 2017 <br>
+								Store: Berkeley Bowl<br>
+								Location: 2020 Oregon St, Berkeley, CA 94703<br>
+								Time: 1PM - 4PM
 							 </strike>
 						 </p>
 					 </div>
@@ -368,7 +381,6 @@
 				<div class="row">
 					<div class="col-lg-12 col-md-12">
 						<h1>REVIEWS</h1>
-						<p>Read what our Delightful customers have said about us...</p>
 					</div>
 				</div>
 
@@ -389,100 +401,146 @@
 		</div>
 		<!-- END REVIEWS -->
 
-				<!-- ABOUT -->
-				<div class="about" id="about">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-12 col-md-12">
-								<h1>ABOUT</h1>
-								<p><em>
-									All Delightful Natural Food Beverages are Hand-crafted (processed, produced, labored, and packaged) by Joe &amp; Bobby Inc., a FDA registered food manufacturer in Modesto, CA.</em><br/><br/>
-									In 2011, the company was incorporated as Joe &amp; Bobby Inc. This is a family company, and we are committed on carrying Ma's mission to help people stay healthy by continuing to produce Ma’s products. We hope you will join us in continuing Ma’s legacy.</p>
-							</div>
-						</div>
-
-<!--
-						<div class="row">
-							<div class="col-lg-12 col-md-12">
-								<h1>WHO WE ARE...</h1>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-lg-3 col-md-3 wow fadeIn" data-wow-delay="0.3s">
-								<img src="img/MaPic.jpg" class="img-circle profile">
-								<blockquote><p><em>One of Ma's main goals were to help those that needed help by creating natural teas.<footer>Ma - Founder</footer></em></p></blockquote>
-							</div>
-
-							<div class="col-lg-3 col-md-3 wow fadeIn" data-wow-delay="0.5s">
-								<img src="img/Alain.jpg" class="img-circle profile">
-								<blockquote><p><em>"We simply want to let people know who Ma was and the reason behind her teas."<footer>Alain - Manager</footer></em></p></blockquote>
-							</div>
-
-							<div class="col-lg-3 col-md-3 wow fadeIn" data-wow-delay="0.7s">
-								<img src="img/Yen.jpg" class="img-circle profile">
-								<blockquote><p><em>"Ma helped a lot of people regain &amp; maintain their health using her knowledge &amp; expertise."<footer>Yen - Financial Manager</footer></em></p></blockquote>
-							</div>
-
-							<div class="col-lg-3 col-md-3 wow fadeIn" data-wow-delay="0.9s">
-								<img src="img/Phillip.jpg" class="img-circle profile">
-								<blockquote><p><em>"Ma's life's work inspired me to carry on her legacy to help people regain their balance in life."<footer>Phillip - I.T. Support</footer></em></p></blockquote>
-							</div>
-						</div>
--->
-
-					</div>
-				</div>
-				<!-- END ABOUT -->
-
-		<!-- CONTACT -->
-		<div class="contact" id="contact">
+		<!-- LOCATIONS -->
+		<div class="locations" id="locations">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 col-md-12">
-						<h1>CONTACTS</h1>
-						<p>Be part of our journey! Follow us, keep in touch, and share your experience with Delightful Natural Foods! Tag us on Instagram (#delightfulnaturalfood) when you buy our products, we would love to see you trying our products and giving us feedback!
-						</p>
-						<ul class="list-inline">
-							<li><a href="http://www.instagram.com/delightfulnaturalfood" target="_blank"><i class="fa fa-instagram fa-4x" aria-hidden="true"></i>
-								</a></li>
-							<li><a href="http://www.facebook.com/delightfulnaturalfood" target="_blank"><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
-								</a></li>
-							<li><a href="mailto:czjyang2379@comcast.net"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i>
-								</a></li>
-							<li><a href="tel:1-209-575-9823"><i class="fa fa-phone fa-4x" aria-hidden="true"></i>
-								</a></li>
-						</ul>
+					<h1>LOCATIONS</h1>
+					<div class="col-lg-7 col-md-12 col-sm-12">
+						<div>
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation" class="active"><a href="#place_1" role="tab" data-toggle="tab">Berkeley</a></li>
+								<li role="presentation"><a href="#place_2" role="tab" data-toggle="tab">Carmel</a></li>
+								<li role="presentation"><a href="#place_3" role="third" data-toggle="tab">Pacific Grove</a></li>
+								<li role="presentation"><a href="#place_4" role="tab" data-toggle="tab">Monterey</a></li>
+								<li role="presentation"><a href="#place_5" role="tab" data-toggle="tab">Salinas</a></li>
+								<li role="presentation"><a href="#place_6" role="tab" data-toggle="tab">Watsonville</a></li>
+								<li role="presentation"><a href="#place_7" role="tab" data-toggle="tab">Aptos</a></li>
+								<li role="presentation"><a href="#place_8" role="tab" data-toggle="tab">Oakland</a></li>
+								<li role="presentation"><a href="#place_9" role="tab" data-toggle="tab">Sacramento</a></li>
+								<li role="presentation"><a href="#place_10" role="tab" data-toggle="tab">Roseville</a></li>
+							</ul>
+
+							<!-- Tab panes -->
+							<div class="tab-content">
+								<div role="tabpanel" class="tab-pane fade in active" id="place_1">
+								<br/>
+									<p>
+										<b>Berkeley Bowl</b><br/>
+										2020 Oregon St, Berkeley, CA 94703<br/><br/>
+
+										<b>Berkeley Bowl West</b><br/>
+										920 Heinz Ave, Berkeley, CA 94710
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_2">
+									<br/>
+									<p>
+										<b>Nielsen Brothers Market</b><br/>
+										7th Avenue San Carlos St, Carmel-By-The-Sea, CA 93923
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_3">
+									<br/>
+									<p>
+										<b>Grove Market</b><br/>
+										242 Forest Ave, Pacific Grove, CA 93950
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_4">
+									<br/>
+									<p>
+										<b>The Norcal Smokeshop</b><br/>
+										765 Lighthouse Ave, Monterey, CA 93940<br/><br/>
+
+										<b>Peninsula Produce Inc</b><br/>
+										2400 Del Monte Ave, Monterey, CA 93940
+
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_5">
+									<br/>
+									<p>
+										<b>Del's Farmers Produce</b><br/>
+										1380 N Main St, Salinas, CA 93906
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_6">
+									<br/>
+									<p>
+										<b>Ortiz Store &amp; Deli</b><br/>
+										29 E Beach St, Watsonville, CA 95076<br/><br/>
+
+										<b>Vicky's Produce</b><br/>
+										321 Rodriguez St, Watsonville, CA 95076
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_7">
+									<br/>
+									<p>
+										<b>Seascape Foods</b><br/>
+										16 Seascape Village, Aptos, CA 95003
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_8">
+									<br/>
+									<p>
+										<b>Nature's Best Foods</b><br/>
+										1431 Jackson St, Oakland, CA 94612
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_9">
+									<br/>
+									<p>
+										<b>Elliott's Natural Foods</b><br/>
+										3347 El Camino Ave, Sacramento, CA 95821<br/><br/>
+
+										<b>Taiwan Best Mart</b><br/>
+										2219 10th St, Sacramento, CA 95818
+									</p>
+								</div>
+								<div role="tabpanel" class="tab-pane" id="place_10">
+									<br/>
+									<p>
+										<b>Sunrise Natural Foods</b><br/>
+										1950 Douglas Blvd, Roseville, CA 95661
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-12 col-sm-12">
+						<iframe src="https://www.google.com/maps/d/embed?mid=1ErKjrSZkKMWWa00qwi5EniyjFBM&hl=en" width="440" height="380"></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- END CONTACT -->
-
 		<!-- FOOTER -->
 		<div class="footer">
 			<div class="container">
 				<div class="row">
-					<center><p style="font-size:1em; padding: 1% 0 0 0;">We want you to have a healthy lifestyle. &copy; 2017</p></center>
-<!--
-					<div class="col-lg-4 col-md-4">
-						<img class="logo" src="img/logo/delightfulLogo.jpg" alt="">
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<h4>ABOUT</h4>
+						<p><a class="footerLinks" href="about.html">About Delightful Natural Food</a></p>
+						<p><a class="footerLinks" href="index.html#locations">Find Your Store</a></p>
 					</div>
-
-					<div class="col-lg-4 col-md-4 connectAndAbout">
-						<h1>GET IN TOUCH</h1>
-						<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:czjyang2379@comcast.net"></a> czjyang2379@comcast.net
-						</p>
-						<p style="color:black"><i class="fa fa-phone" aria-hidden="true"> 1-209-575-9823</i></p>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<h4>SUPPORT</h4>
+						<p><a class="footerLinks" href="contact.html">Contact Us</a></p>
+						<p><a class="footerLinks" href="faq.html">FAQ</a></p>
 					</div>
-
-					<div class="col-lg-4 col-md-4 connectAndAbout">
-						<h1>ABOUT US</h1>
-						<p>We want you to have a healthy lifestyle.</p>
-						<p>Delightful Natural Food &copy; 2017</p>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<p style="font-size:1.5em; padding: 3% 0 0 0;">We want <em>you</em> to have a healthy lifestyle. &copy; 2017</p></center>
+						<li><a href="http://www.instagram.com/delightfulnaturalfood" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+							</a></li>
+						<li><a href="http://www.facebook.com/delightfulnaturalfood" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+							</a></li>
+						<li><a href="mailto:czjyang2379@comcast.net"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+							</a></li>
+						<li><a href="tel:1-209-575-9823"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a></li>
 					</div>
--->
 				</div>
 			</div>
 		</div>

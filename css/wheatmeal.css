@@ -1,12 +1,22 @@
-.navbar-wheat {
+/* ******************************************************** */
+
+/* NAVIGATION */
+.navbar-benefits {
 	background-color: white;
 	font-family: 'Khula', sans-serif;
 }
 
-.navbar-wheat a:hover {
+.navbar-benefits a:hover {
 	color: #ffffff !important;
 	background-color: #75E4B3 !important;
 	font-family: 'Khula', sans-serif;
+}
+
+h1{
+	font-family: 'Overpass', sans-serif;
+	font-size: 2em;
+	padding: 7% 0 6% 0;
+	text-align: center;
 }
 
 .navbar-brand{
@@ -15,20 +25,13 @@
 	color: #75E4B3 !important;
 }
 
-.readmorebtn, .readmorebtn:hover{
-	color: white;
-	background-color: #4FE86E;
-}
-
 .navbar-default .nav li.active a{
 	color:#1d1d1d !important;
 }
 
-@media(max-width:768px){
-	.navbar-brand{
-		font-size:1.8em;
-	}
-}
+/* ******************************************************** */
+
+/* BODY */
 
 .option{
 	font-size: 1em;
@@ -43,7 +46,7 @@ h1{
 }
 
 .modalHeading{
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: 'Overpass', sans-serif;
 }
 
@@ -53,7 +56,7 @@ h4{
 
 .modalDesc{
 	font-family: 'Khula', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .icedTeasPage{
@@ -72,4 +75,102 @@ h4{
 .icedTeaBtn:hover{
 	color:white;
 	background-color: #75E4B3;
+}
+
+/* ******************************************************** */
+
+/* FOOTER */
+.footer h4{
+	font-size: 1.5em;
+	font-family: 'Overpass', sans-serif;
+	text-decoration: underline;
+}
+
+.footer{
+	margin: 5% 0 0 0;
+	padding: 10px 0 20px;
+	background-color: #55DBCB;
+	color: white;
+}
+
+.footerLinks{
+	color:white;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+a.footerLinks:hover{
+	color:black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer .fa{
+	color: white;
+	cursor: pointer;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 0 3% 0 0;
+	float: left;
+}
+
+.footer .fa:hover{
+	color:#BFFFF1;
+}
+
+.icons:hover{
+	color:black;
+}
+
+/* ******************************************************** */
+
+/* MEDIA QUERIES */
+
+@media(max-width:320px){
+	img{
+		width:100% !important;
+		height:100% !important;
+	}
+	.goInvisible{
+		display: none;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+	.icedTeaBtn{
+		margin: 0 0 5% 0 !important;
+	}
+}
+
+@media(max-width:375px){
+	img{
+		width:100% !important;
+		height:100% !important;
+	}
+	.goInvisible{
+		display: none;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+	.icedTeaBtn{
+		margin: 0 0 5% 0 !important;
+	}
+}
+
+@media(max-width:425px){
+	.icedTeaBtn{
+		margin: 0 0 5% 0 !important;
+	}
+}
+
+@media(max-width:768px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+	.icedTeaBtn{
+		margin: 0 0 5% 0 !important;
+	}
 }

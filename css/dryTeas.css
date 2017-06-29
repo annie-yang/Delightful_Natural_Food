@@ -1,12 +1,22 @@
-.navbar-dry {
+/* ******************************************************** */
+
+/* NAVIGATION */
+.navbar-benefits {
 	background-color: white;
 	font-family: 'Khula', sans-serif;
 }
 
-.navbar-dry a:hover {
+.navbar-benefits a:hover {
 	color: #ffffff !important;
 	background-color: #75E4B3 !important;
 	font-family: 'Khula', sans-serif;
+}
+
+h1{
+	font-family: 'Overpass', sans-serif;
+	font-size: 2em;
+	padding: 7% 0 6% 0;
+	text-align: center;
 }
 
 .navbar-brand{
@@ -15,21 +25,13 @@
 	color: #75E4B3 !important;
 }
 
-.readmorebtn, .readmorebtn:hover{
-	color: white;
-	background-color: #4FE86E;
-}
-
 .navbar-default .nav li.active a{
 	color:#1d1d1d !important;
 }
 
-@media(max-width:768px){
-	.navbar-brand{
-		font-size:1.8em;
-	}
-}
+/* ******************************************************** */
 
+/* BODY */
 .option{
 	font-size: 1em;
 	font-family: 'Overpass', sans-serif;
@@ -42,7 +44,7 @@ h1{
 }
 
 .modalHeading{
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: 'Overpass', sans-serif;
 }
 
@@ -52,5 +54,127 @@ h4{
 
 .modalDesc{
 	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+.btn.btn-sample.btn-md.icedTeaBtn.modalDry, .btn.btn-sample.btn-md.icedTeaBtn{
+	color:black;
+	border-color: black;
+}
+
+.btn.btn-sample.btn-md.icedTeaBtn:hover{
+	color:white;
+	background-color: #55DBCB;
+	border-color: white;
+}
+
+
+.goInvisible{
+	display: none;
+}
+
+/* ******************************************************** */
+
+/* FOOTER */
+.footer h4{
 	font-size: 1.5em;
+	font-family: 'Overpass', sans-serif;
+	text-decoration: underline;
+}
+
+.footer{
+	padding: 10px 0 20px;
+	background-color: #55DBCB;
+	color: white;
+}
+
+.footerLinks{
+	color:white;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+a.footerLinks:hover{
+	color:black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer .fa{
+	color: white;
+	cursor: pointer;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 0 3% 0 0;
+	float: left;
+}
+
+.footer .fa:hover{
+	color:#BFFFF1;
+}
+
+.icons:hover{
+	color:black;
+}
+
+/* ******************************************************** */
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	navbar-brand{
+		font-size:1.8em;
+		text-align: center;
+	}
+
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+
+	img{
+		height: 25% !important;
+		width: 50% !important;
+	}
+}
+
+@media(max-width:320px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+	img{
+		height: 30% !important;
+		width: 70% !important;
+	}
+	h1{
+		padding: 25% 0 0 0 !important;
+	}
+}
+
+
+@media(max-width:375px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+	img{
+		height: 30% !important;
+		width: 70% !important;
+	}
+	h1{
+		padding: 25% 0 0 0 !important;
+	}
+}
+
+@media(max-width:425px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+	img{
+		height: 30% !important;
+		width: 70% !important;
+	}
+	h1{
+		padding: 25% 0 0 0 !important;
+	}
 }

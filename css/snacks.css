@@ -1,23 +1,37 @@
-.navbar-snacks {
+/* ******************************************************** */
+
+/* NAVIGATION */
+.navbar-benefits {
 	background-color: white;
 	font-family: 'Khula', sans-serif;
 }
 
-.navbar-snacks a:hover {
+.navbar-benefits a:hover {
 	color: #ffffff !important;
 	background-color: #75E4B3 !important;
 	font-family: 'Khula', sans-serif;
+}
+
+h1{
+	font-family: 'Overpass', sans-serif;
+	font-size: 2em;
+	padding: 7% 0 6% 0;
+	text-align: center;
+}
+
+.goInvisible{
+	display: none;
+}
+
+img{
+	height:100%;
+	width:100%;
 }
 
 .navbar-brand{
 	font-family: Brush Script MT !important;
 	font-size:2.3em;
 	color: #75E4B3 !important;
-}
-
-.readmorebtn, .readmorebtn:hover{
-	color: white;
-	background-color: #4FE86E;
 }
 
 .navbar-default .nav li.active a{
@@ -30,6 +44,64 @@
 	}
 }
 
+@media(max-width:320px){
+	.snackModal{
+		padding: 0% 0% 0% 0%;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+	.goInvisible{
+		display: none;
+	}
+}
+
+@media(max-width:375px){
+	.snackModal{
+		padding: 0% 0% 0% 0%;
+	}
+	img{
+		width:100% !important;
+		height:100% !important;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+	.goInvisible{
+		display: none;
+	}
+}
+
+@media(max-width:425px){
+	.snackModal{
+		padding: 0% 0% 0% 0%;
+	}
+	img{
+		width:100% !important;
+		height:100% !important;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+	.goInvisible{
+		display: none;
+	}
+}
+
+@media(max-width:425px){
+	.snackModal{
+		padding: 0% 0% 0% 0%;
+	}
+	img{
+		width:100% !important;
+		height:100% !important;
+	}
+	h1{
+		padding: 15% 0 0 0 !important;
+	}
+}
+
+
 h1{
 	font-family: 'Overpass', sans-serif;
 	font-size: 2em;
@@ -38,7 +110,7 @@ h1{
 }
 
 .modalHeading{
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: 'Overpass', sans-serif;
 }
 
@@ -48,7 +120,7 @@ h4{
 
 .modalDesc{
 	font-family: 'Khula', sans-serif;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 
 .icedTeasPage{
@@ -67,4 +139,51 @@ h4{
 .icedTeaBtn:hover{
 	color:white;
 	background-color: #75E4B3;
+}
+
+/* ******************************************************** */
+
+/* FOOTER */
+.footer h4{
+	font-size: 1.5em;
+	font-family: 'Overpass', sans-serif;
+	text-decoration: underline;
+}
+
+.footer{
+	margin: 5% 0 0 0;
+	padding: 10px 0 20px;
+	background-color: #55DBCB;
+	color: white;
+}
+
+.footerLinks{
+	color:white;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+a.footerLinks:hover{
+	color:black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer .fa{
+	color: white;
+	cursor: pointer;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 0 3% 0 0;
+	float: left;
+}
+
+.footer .fa:hover{
+	color:#BFFFF1;
+}
+
+.icons:hover{
+	color:black;
 }

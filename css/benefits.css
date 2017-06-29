@@ -9,7 +9,6 @@
 	font-family: 'Khula', sans-serif;
 }
 
-
 h1{
 	font-family: 'Overpass', sans-serif;
 	font-size: 2em;
@@ -42,6 +41,7 @@ h4, h2{
 	font-size: 1.2em;
 }
 
+/* Tabs */
 a{
 	color: #75E4B3;
 }
@@ -61,4 +61,50 @@ a{
 	font-family: 'Khula', sans-serif;
 	cursor: default;
 
+}
+/* ******************************************************** */
+
+/* FOOTER */
+.footer h4{
+	font-size: 1.5em;
+	font-family: 'Overpass', sans-serif;
+	text-decoration: underline;
+}
+
+.footer{
+	margin: 12% 0 0 0;
+	padding: 10px 0 20px;
+	background-color: #55DBCB;
+	color: white;
+}
+
+.footerLinks{
+	color:white;
+	font-family: 'Khula', sans-serif;
+	font-size: 1.2em;
+}
+
+a.footerLinks:hover{
+	color:black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.footer .fa{
+	color: white;
+	cursor: pointer;
+}
+
+.footer li{
+	list-style-type: none;
+	padding: 0 3% 0 0;
+	float: left;
+}
+
+.footer .fa:hover{
+	color:#BFFFF1;
+}
+
+.icons:hover{
+	color:black;
 }

@@ -1,7 +1,6 @@
 /* ******************************************************** */
 
 /* NAVIGATION */
-
 .navbar-benefits {
 	background-color: white;
 	font-family: 'Khula', sans-serif;
@@ -30,65 +29,34 @@ h1{
 	color:#1d1d1d !important;
 }
 
+@media(max-width:768px){
+	.navbar-brand{
+		font-size:1.8em;
+	}
+}
+
 /* ******************************************************** */
 
 /* BODY */
-.iced_details{
-	padding: 0 0 0 25%;
-}
 
-.icedTeasPage h1{
-	color:black;
-	text-align: center;
+h1{
+	font-family: 'Overpass', sans-serif;
 	font-size: 2em;
-	font-family: 'Overpass', sans-serif;
-	padding: 0 0 5% 0;
+	padding: 7% 0 6% 0;
+	text-align: center;
 }
 
-.modalHeading{
+.aboutCompany{
+	font-family: 'Khula', sans-serif;
 	font-size: 1.5em;
-	font-family: 'Overpass', sans-serif;
+	padding: 0 0 10% 0;
 }
 
-h4{
-	font-family: 'Khula', sans-serif;
-}
-
-img{
-	width:100%;
-	height:100%;
-}
-
-.modalDesc{
-	font-family: 'Khula', sans-serif;
-	font-size: 1.2em;
-}
-
-.icedTeasPage{
-	padding: 90px 0 0 0;
-}
-
-.icedTeasPage ul{
-	text-align: left;
-}
-
-.icedTeaBtn{
-	color:black;
-	border-color: black;
-}
-
-.icedTeaBtn:hover{
-	color:white;
-	background-color: #75E4B3;
-}
-
-.goInvisible{
-	display: none;
-}
 
 /* ******************************************************** */
 
 /* FOOTER */
+
 .footer h4{
 	font-size: 1.5em;
 	font-family: 'Overpass', sans-serif;
@@ -130,60 +98,4 @@ a.footerLinks:hover{
 
 .icons:hover{
 	color:black;
-}
-
-/* ******************************************************** */
-
-/* MEDIA QUERIES */
-
-@media(max-width:320px){
-	.navbar-brand{
-		font-size:1.8em;
-	}
-	.iced_details{
-		padding: 0%;
-	}
-	.paddingHeading{
-		padding: 5% 0 0 0;
-	}
-}
-
-@media(max-width:375px){
-	.iced_details{
-		padding: 0%;
-	}
-	.paddingHeading{
-		padding: 5% 0 0 0;
-	}
-}
-
-
-@media(max-width:425px){
-	.iced_details{
-		padding: 0%;
-	}
-	.paddingHeading{
-		padding: 5% 0 0 0;
-	}
-}
-
-@media(max-width:768px){
-	.iced_details{
-		padding: 0%;
-	}
-	.paddingHeading{
-		padding: 5% 0 0 0;
-	}
-}
-
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-	navbar-brand{
-		font-size:1.8em;
-		text-align: center;
-	}
-
-	img{
-		height: 25% !important;
-		width: 50% !important;
-	}
 }
