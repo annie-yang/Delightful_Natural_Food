@@ -21,14 +21,32 @@
 		  smartlook('init', '0b9b413b4f2c6d1f4bb2e590a72f96414cd3db71');
 	  </script>
 
-	  <!-- SMARTLOOK -->
+	  <!-- Amplitude Testing -->
 	  <script type="text/javascript">
-		  window.smartlook||(function(d) {
-			  var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
-			  var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
-			  c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
-		  })(document);
-		  smartlook('init', '0b9b413b4f2c6d1f4bb2e590a72f96414cd3db71');
+		  (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+		  ;r.type="text/javascript";r.async=true
+							  ;r.src="https://d24n15hnbwhuhn.cloudfront.net/libs/amplitude-3.7.0-min.gz.js"
+							  ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+								  e.amplitude.runQueuedFunctions()}else{
+									  console.log("[Amplitude] Error: could not load SDK")}}
+							  ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+							  ;function s(e,t){e.prototype[t]=function(){
+								  this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+							  var o=function(){this._q=[];return this}
+							  ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+							  ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+																														  ;return this}
+							  ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+							  ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+							  ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp","logEventWithGroups","setSessionId"]
+							  ;function v(e){function t(t){e[t]=function(){
+								  e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+												  for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+													  e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+													  ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+												  ;e.amplitude=n})(window,document);
+
+		  amplitude.getInstance().init("fced666f0ac63479b765006cf5e13c3a");
 	  </script>
 
 	  <!-- FAVICON -->
@@ -250,9 +268,9 @@
 					 <li role="presentation" class="disabled dates"><a href="#second" aria-controls="settings" role="tab" data-toggle="tab">Tues., Sept. 12</a></li> <!-- class="disabled" -->
 					 <li role="presentation" class="disabled dates"><a href="#third" aria-controls="home" role="tab" data-toggle="tab">Wed., Sept. 13</a></li>
 					 <li role="presentation" class="disabled dates"><a href="#fourth" aria-controls="home" role="tab" data-toggle="tab">Thurs., Sept. 14</a></li>
-					 <li role="presentation" class="active dates"><a href="#fifth" aria-controls="home" role="tab" data-toggle="tab">Sat., Sept. 16</a></li>
-					 <li role="presentation"><a href="#sixth" aria-controls="home" role="tab" data-toggle="tab">Tues., Sept. 19</a></li>
-					 <li role="presentation"><a href="#seventh" aria-controls="home" role="tab" data-toggle="tab">Tues., Sept. 26</a></li>
+					 <li role="presentation" class="disabled dates"><a href="#fifth" aria-controls="home" role="tab" data-toggle="tab">Sat., Sept. 16</a></li>
+					 <li role="presentation" class="disabled dates"><a href="#sixth" aria-controls="home" role="tab" data-toggle="tab">Tues., Sept. 19</a></li>
+					 <li role="presentation" class="active dates"><a href="#seventh" aria-controls="home" role="tab" data-toggle="tab">Tues., Sept. 26</a></li>
 					 <li role="presentation"><a href="#eighth" aria-controls="home" role="tab" data-toggle="tab">Sat., Sept. 30</a></li>
 <!--
 					 <li role="presentation"><a href="#nineth" aria-controls="home" role="tab" data-toggle="tab">Tues., June 20</a></li>
@@ -309,16 +327,19 @@
 							 </strike>
 						 </p>
 					 </div>
-					 <div role="tabpanel" class="tab-pane fade in active" id="fifth">
+					 <div role="tabpanel" class="tab-pane" id="fifth">
 						 <p class="timeDate">
+							 <strike>
 							 Date: Saturday, September 16, 2017 <br>
 							 Store: Berkeley Bowl West<br/>
 							 Location: 920 Heinz Ave, Berkeley, CA 94710<br/>
 							 Time: 1PM - 4PM<br/>
+							 </strike>
 						 </p>
 					 </div>
 					 <div role="tabpanel" class="tab-pane" id="sixth">
 						 <p class="timeDate">
+							 <strike>
 							 Date: Tuesday, September 19, 2017 <br>
 							 Store: Berkeley Bowl<br>
 							 Location: 2020 Oregon St, Berkeley, CA 94703<br>
@@ -329,9 +350,10 @@
 							Store: Berkeley Bowl West<br>
 							Location: 920 Heinz Ave, Berkeley, CA 94710<br>
 							Time: 1PM - 4PM
+							 </strike>
 						 </p>
 					 </div>
-					 <div role="tabpanel" class="tab-pane" id="seventh">
+					 <div role="tabpanel" class="tab-pane fade in active" id="seventh">
 						 <p class="timeDate">
 							 Date: Tuesday, September 26, 2017 <br>
 							 Store: Berkeley Bowl<br>
