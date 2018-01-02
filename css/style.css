@@ -303,25 +303,26 @@ p, h1{
 .reviews{
 	padding: 90px 0 90px;
 	text-align: center;
-	background-color: #55DBCB;
+	background-color: white;
 }
 
 .reviews h1{
 	font-size: 2em;
 	padding-bottom: 25px;
 	font-family: 'Overpass', sans-serif;
-	color:white;
+	color:black;
 }
 
 .reviews p{
 	padding: 0 0 35px;
-	color:white;
+	color:black;
 }
 
 /* ******************************************************** */
 
 /* LOCATIONS */
 .locations{
+	background-color: #55DBCB;
 	padding: 90px 0 90px;
 }
 
@@ -348,22 +349,22 @@ iframe{
 
 .footer{
 	padding: 10px 0 10px;
-	background-color: #55DBCB;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 .footerLinks{
-	color:white;
+	color:black;
 }
 
 a.footerLinks:hover{
-	color:black;
+	color:#55DBCB;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 .footer .fa{
-	color: white;
+	color: black;
 	cursor: pointer;
 }
 
@@ -374,7 +375,7 @@ a.footerLinks:hover{
 }
 
 .footer .fa:hover{
-	color:#BFFFF1;
+	color:#55DBCB;
 }
 
 .icons:hover{
