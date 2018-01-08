@@ -95,12 +95,13 @@ p, h1{
 
 .btn.btn-sample.btn-md.viewProducts{
 	color:white;
-	border-color: white;
+	border-color: #FC7753;
+	background-color: #FC7753;
 }
 
 .btn.btn-sample.btn-md.viewProducts:hover{
 	color:black;
-	border-color: black;
+	border-color: #FC7753;
 }
 
 /* MEDIA QUERIES */
@@ -303,26 +304,26 @@ p, h1{
 .reviews{
 	padding: 90px 0 90px;
 	text-align: center;
-	background-color: white;
+	background-color: #55DBCB;
 }
 
 .reviews h1{
 	font-size: 2em;
 	padding-bottom: 25px;
 	font-family: 'Overpass', sans-serif;
-	color:black;
+	color:white;
 }
 
 .reviews p{
 	padding: 0 0 35px;
-	color:black;
+	color:white;
 }
 
 /* ******************************************************** */
 
 /* LOCATIONS */
 .locations{
-	background-color: #55DBCB;
+	background-color: white;
 	padding: 90px 0 90px;
 }
 
@@ -349,22 +350,22 @@ iframe{
 
 .footer{
 	padding: 10px 0 10px;
-	background-color: white;
-	color: black;
+	background-color: #55DBCB;
+	color: white;
 }
 
 .footerLinks{
-	color:black;
+	color:white;
 }
 
 a.footerLinks:hover{
-	color:#55DBCB;
+	color:black;
 	text-decoration: none;
 	cursor: pointer;
 }
 
 .footer .fa{
-	color: black;
+	color: white;
 	cursor: pointer;
 }
 
@@ -375,7 +376,7 @@ a.footerLinks:hover{
 }
 
 .footer .fa:hover{
-	color:#55DBCB;
+	color:black;
 }
 
 .icons:hover{
